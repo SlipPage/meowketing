@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },400);
   }
 
-  // Redirect immediately on click
+  // Redirect on click
   const landingImage = document.getElementById('landing-image');
   if (landingImage) {
     landingImage.addEventListener('click', () => {
