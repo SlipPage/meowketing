@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // // Load navbar from navbar.html
-  // fetch("./navbar.html")
-  //   .then(response => response.text())
-  //   .then(data => {
-  //     document.getElementById("navbar-container").innerHTML = data;
-  // });
+  // Load navbar from navbar.html
+  fetch("./navbar.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("navbar-container").innerHTML = data;
+  });
 
   // Check if Bootstrap CSS loaded, fallback if not
   const testCss = document.createElement("div");
