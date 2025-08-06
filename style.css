@@ -62,8 +62,12 @@ body {
 
 
 #landing-image {
-  align-self: center;
-  width: 70%;
-  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: flex;
+  height: 70%;
+  object-fit: cover;            /* Crops but keeps the focus area */
+  object-position: center;     /* Keeps the center in view */
 }
 
