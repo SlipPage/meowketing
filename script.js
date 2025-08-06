@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const landingImage = document.getElementById('landing-image');
   if (landingImage) {
     landingImage.addEventListener('click', () => {
-      redirectWithFade('./page/home.html');
+      redirectWithFade('home.html');
     });
   }
 
