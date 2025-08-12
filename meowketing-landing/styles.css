@@ -1,0 +1,8 @@
+/* Lightweight custom tweaks */
+:root {
+  --bs-body-font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji','Segoe UI Emoji', 'Segoe UI Symbol';
+}
+.bg-gradient {
+  background: linear-gradient(180deg, #ffffff 0%, #f7f9fc 100%);
+}
+.feature:hover { transform: translateY(-2px); transition: transform .2s ease; }
